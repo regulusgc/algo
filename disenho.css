@@ -1,0 +1,212 @@
+#reg
+{
+	color: white;
+}
+header {
+	background-image: url(fin.jpg);
+	background-size: cover;
+	padding: 195px;
+	
+	background-repeat: no-repeat;
+}
+.btn
+{
+	border-color: white;
+}
+body
+{
+	margin: 0;
+}
+.container h1
+{
+	font-size: 8rem;
+	color: gold;
+	padding-bottom: 150px;
+	padding-top: 0px;
+}
+
+.container-fluid h3
+{
+	font-family: naruto;
+	font-size: 3rem;
+	color: gold;
+	padding-bottom: 15px;
+	padding-top: 0px;
+}
+
+#cosas p
+{
+	color: white;
+	font-family: zelda2;
+	font-size-adjust: 2rem;
+
+}
+#song p
+{
+	color: white;
+	font-family: zelda2;
+	font-size: 2rem;
+
+}
+
+
+#frase
+{
+	font-size: 2rem;
+	padding-top: 25px;
+	font-family: zelda2;
+
+
+}
+
+#pie
+{
+
+	background-color: #080d11 ;
+	background-size: cover;
+}
+#mifoto
+{
+	background-image: lightgrey;
+}
+#yo
+{
+	font-size: 2rem;
+	padding-top: 25px;
+	font-family: naruto;
+}
+
+#cosas
+{
+	padding-bottom: 25px;
+	background-color: #080d11;
+
+}
+#marg
+{
+	padding-bottom: 25px;
+}
+
+#song
+{
+	padding-bottom: 25px;
+	background-color: #080d11;
+}
+#lista1 ul { 
+    list-style:none; 
+}
+
+#lista1 ul li { 
+    font-family:Georgia,serif,Times; 
+    font-size:18px; 
+}
+
+#lista1 ul li a { 
+    display:block; 
+    width:300px; 
+    height:28px; 
+    background-color:#333; 
+    border-left:5px solid #222; 
+    border-right:5px solid #222; 
+    padding-left:10px;
+    text-decoration:none; 
+    color:#bfe1f1; 
+}
+
+#em
+{
+	color: white;
+}
+#der{
+	color: white;
+}
+#lista1 ul li a:hover { 
+    -moz-transform:rotate(-5deg); 
+    -moz-box-shadow:10px 10px 20px #000000;
+    -webkit-transform:rotate(-5deg); 
+    -webkit-box-shadow:10px 10px 20px #000000;
+    transform:rotate(4deg); box-shadow:10px 10px 20px #000000; 
+    margin-left: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-text{
+	margin-top:50px;
+	background-color: #272d33;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+	
+.search-text .input-search{
+	height:45px;
+	width:40%;
+	padding-left:20px;
+    color:#333;
+} 
+
+.search-text .btn-search{
+    background: #da3e44;
+    font-family:Roboto;
+    border:none;
+	color:#FFF;
+	height: 45px;
+    width: 80px;
+}
+
+.search-text h4{
+    color: #FFF;
+    font-weight: 700;
+}
+
+footer{
+     background-color: #33383c;
+     padding:30px 0px;
+}	       
+
+.logo{
+    color:#FFF;
+    font-weight:700;
+    font-size:30px;
+}
+
+.address span , .menu span{
+   color: #FFF; 
+   font-weight: bold; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+ 
+.address li a , .menu li a{
+    color:#FFF;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.address li, .menu li{
+    margin:20px 0px;
+    list-style: none;
+}
+
+.address li a:hover , .menu li a:hover{
+    color: #da3e44;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.address .fa{
+    color: #da3e44;
+    margin-right: 10px;
+    font-size:18px;
+}
